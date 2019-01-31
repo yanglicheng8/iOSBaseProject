@@ -1,0 +1,29 @@
+platform :ios, '8.0'
+target ‘iOSBaseProject’ do
+    pod 'AFNetworking', '~> 3.2.0'
+    pod 'SVProgressHUD'
+    pod 'MJRefresh'
+    pod 'Masonry'
+    pod 'pop'
+    pod 'LBXScan'
+    pod 'DZNEmptyDataSet'
+    pod 'CocoaSecurity'
+    pod 'MJExtension'
+    pod 'SDWebImage', '~> 3.7.5'
+    pod 'JVFloatLabeledTextField'
+    pod 'IQKeyboardManager'
+
+    pod 'UMCCommon'
+    pod 'UMCSecurityPlugins'
+    pod 'UMCAnalytics'
+    pod 'UMCPush'
+    pod 'UMCCommonLog'
+    pod 'UMCShare/UI'
+    pod 'UMCShare/Social/WeChat'
+    pod 'UMCShare/Social/QQ'
+
+    pod 'JPush'
+    pod 'HMSegmentedControl'
+    #pod 'IDMPhotoBrowser'
+
+end
