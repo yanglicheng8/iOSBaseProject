@@ -2,8 +2,8 @@
 //  MDMethod.m
 //  Unicorn_Aged
 //
-//  Created by 李孟东 on 2018/7/24.
-//  Copyright © 2018年 dareway. All rights reserved.
+//  Created by Leo on 2018/7/24.
+//  Copyright © 2018年 Leo. All rights reserved.
 //
 
 #import "MDMethod.h"

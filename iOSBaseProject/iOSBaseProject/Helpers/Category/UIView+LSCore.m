@@ -2,8 +2,8 @@
 //  UIView+LSCore.m
 //  EXiangTu
 //
-//  Created by 李孟东 on 2018/10/12.
-//  Copyright © 2018年 dareway. All rights reserved.
+//  Created by Leo on 2018/10/12.
+//  Copyright © 2018年 Leo. All rights reserved.
 //
 
 #import "UIView+LSCore.h"

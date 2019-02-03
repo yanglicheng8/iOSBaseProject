@@ -118,6 +118,35 @@
 		87A9BBBB22070FDC00A0F55C /* LGPhotoPickerGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BB8722070FDC00A0F55C /* LGPhotoPickerGroupTableViewCell.m */; };
 		87A9BBBC22070FDC00A0F55C /* LGPhotoPickerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BB8822070FDC00A0F55C /* LGPhotoPickerImageView.m */; };
 		87A9BBC12207172A00A0F55C /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BBBF2207172A00A0F55C /* DACircularProgressView.m */; };
+		87A9BC0922071C4B00A0F55C /* QMainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BBD722071C4B00A0F55C /* QMainTabBarViewController.m */; };
+		87A9BC0A22071C4B00A0F55C /* QMainWebJSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BBDA22071C4B00A0F55C /* QMainWebJSHelper.m */; };
+		87A9BC0B22071C4B00A0F55C /* QMainWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BBDD22071C4B00A0F55C /* QMainWebViewController.m */; };
+		87A9BC0C22071C4B00A0F55C /* QMainBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BBE022071C4B00A0F55C /* QMainBaseNavigationController.m */; };
+		87A9BC0D22071C4B00A0F55C /* QMainBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BBE422071C4B00A0F55C /* QMainBaseViewController.m */; };
+		87A9BC0E22071C4B00A0F55C /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BBE622071C4B00A0F55C /* TitleView.m */; };
+		87A9BC1622071C4B00A0F55C /* QMainScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BC0122071C4B00A0F55C /* QMainScanViewController.m */; };
+		87A9BC2722071F6C00A0F55C /* SGQRCode.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 87A9BC1922071F6C00A0F55C /* SGQRCode.bundle */; };
+		87A9BC2822071F6C00A0F55C /* UIImage+ImageSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BC1C22071F6C00A0F55C /* UIImage+ImageSize.m */; };
+		87A9BC2922071F6C00A0F55C /* SGQRCodeHelperTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BC1D22071F6C00A0F55C /* SGQRCodeHelperTool.m */; };
+		87A9BC2A22071F6C00A0F55C /* SGQRCodeScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BC1E22071F6C00A0F55C /* SGQRCodeScanningView.m */; };
+		87A9BC2B22071F6C00A0F55C /* SGQRCodeScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BC1F22071F6C00A0F55C /* SGQRCodeScanManager.m */; };
+		87A9BC2C22071F6C00A0F55C /* SGQRCodeGenerateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BC2022071F6C00A0F55C /* SGQRCodeGenerateManager.m */; };
+		87A9BC2D22071F6C00A0F55C /* SGQRCodeAlbumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BC2522071F6C00A0F55C /* SGQRCodeAlbumManager.m */; };
+		87A9BC4E2207205000A0F55C /* QMainSortSelectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BC302207205000A0F55C /* QMainSortSelectModel.m */; };
+		87A9BC4F2207205000A0F55C /* QMainSortSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BC332207205000A0F55C /* QMainSortSelectView.m */; };
+		87A9BC502207205000A0F55C /* QMainItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BC362207205000A0F55C /* QMainItemView.m */; };
+		87A9BC512207205000A0F55C /* QMainItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A9BC372207205000A0F55C /* QMainItemView.xib */; };
+		87A9BC522207205000A0F55C /* QMainVariableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BC3A2207205000A0F55C /* QMainVariableView.m */; };
+		87A9BC532207205000A0F55C /* QMainPictureViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BC3C2207205000A0F55C /* QMainPictureViewModel.m */; };
+		87A9BC542207205000A0F55C /* QMainPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BC3D2207205000A0F55C /* QMainPictureView.m */; };
+		87A9BC552207205000A0F55C /* QMainEmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A9BC422207205000A0F55C /* QMainEmptyView.xib */; };
+		87A9BC562207205000A0F55C /* QMainEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BC432207205000A0F55C /* QMainEmptyView.m */; };
+		87A9BC572207205000A0F55C /* CommonTypeSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BC452207205000A0F55C /* CommonTypeSelectView.m */; };
+		87A9BC582207205000A0F55C /* CommonTypeSelectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BC482207205000A0F55C /* CommonTypeSelectModel.m */; };
+		87A9BC592207205000A0F55C /* CommonTypeSelectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A9BC492207205000A0F55C /* CommonTypeSelectView.xib */; };
+		87A9BC5A2207205000A0F55C /* QMainSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BC4D2207205000A0F55C /* QMainSearchView.m */; };
+		87A9BC60220720B300A0F55C /* QMainBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BC5C220720B300A0F55C /* QMainBaseModel.m */; };
+		87A9BC61220720B300A0F55C /* QMainLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9BC5D220720B300A0F55C /* QMainLocationModel.m */; };
 		87D3A4582202AADB00755174 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D3A4572202AADB00755174 /* AppDelegate.m */; };
 		87D3A45B2202AADB00755174 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D3A45A2202AADB00755174 /* ViewController.m */; };
 		87D3A45E2202AADB00755174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D3A45C2202AADB00755174 /* Main.storyboard */; };
@@ -340,6 +369,63 @@
 		87A9BB9022070FDC00A0F55C /* LGPhotoPickerCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerCommon.h; sourceTree = "<group>"; };
 		87A9BBBF2207172A00A0F55C /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
 		87A9BBC02207172A00A0F55C /* DACircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACircularProgressView.h; sourceTree = "<group>"; };
+		87A9BBD422071C4B00A0F55C /* QMainTabBarPresenterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMainTabBarPresenterProtocol.h; sourceTree = "<group>"; };
+		87A9BBD522071C4B00A0F55C /* QMainTabBarProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMainTabBarProtocol.h; sourceTree = "<group>"; };
+		87A9BBD722071C4B00A0F55C /* QMainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMainTabBarViewController.m; sourceTree = "<group>"; };
+		87A9BBD822071C4B00A0F55C /* QMainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMainTabBarViewController.h; sourceTree = "<group>"; };
+		87A9BBDA22071C4B00A0F55C /* QMainWebJSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMainWebJSHelper.m; sourceTree = "<group>"; };
+		87A9BBDB22071C4B00A0F55C /* QMainWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMainWebViewController.h; sourceTree = "<group>"; };
+		87A9BBDC22071C4B00A0F55C /* QMainWebJSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMainWebJSHelper.h; sourceTree = "<group>"; };
+		87A9BBDD22071C4B00A0F55C /* QMainWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMainWebViewController.m; sourceTree = "<group>"; };
+		87A9BBDF22071C4B00A0F55C /* QMainBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMainBaseNavigationController.h; sourceTree = "<group>"; };
+		87A9BBE022071C4B00A0F55C /* QMainBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMainBaseNavigationController.m; sourceTree = "<group>"; };
+		87A9BBE322071C4B00A0F55C /* QMainBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMainBaseViewController.h; sourceTree = "<group>"; };
+		87A9BBE422071C4B00A0F55C /* QMainBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMainBaseViewController.m; sourceTree = "<group>"; };
+		87A9BBE622071C4B00A0F55C /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleView.m; sourceTree = "<group>"; };
+		87A9BBE722071C4B00A0F55C /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
+		87A9BC0022071C4B00A0F55C /* QMainScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMainScanViewController.h; sourceTree = "<group>"; };
+		87A9BC0122071C4B00A0F55C /* QMainScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMainScanViewController.m; sourceTree = "<group>"; };
+		87A9BC1822071F6C00A0F55C /* SGQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCode.h; sourceTree = "<group>"; };
+		87A9BC1922071F6C00A0F55C /* SGQRCode.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SGQRCode.bundle; sourceTree = "<group>"; };
+		87A9BC1B22071F6C00A0F55C /* UIImage+ImageSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageSize.h"; sourceTree = "<group>"; };
+		87A9BC1C22071F6C00A0F55C /* UIImage+ImageSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageSize.m"; sourceTree = "<group>"; };
+		87A9BC1D22071F6C00A0F55C /* SGQRCodeHelperTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeHelperTool.m; sourceTree = "<group>"; };
+		87A9BC1E22071F6C00A0F55C /* SGQRCodeScanningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeScanningView.m; sourceTree = "<group>"; };
+		87A9BC1F22071F6C00A0F55C /* SGQRCodeScanManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeScanManager.m; sourceTree = "<group>"; };
+		87A9BC2022071F6C00A0F55C /* SGQRCodeGenerateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeGenerateManager.m; sourceTree = "<group>"; };
+		87A9BC2122071F6C00A0F55C /* SGQRCodeAlbumManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeAlbumManager.h; sourceTree = "<group>"; };
+		87A9BC2222071F6C00A0F55C /* SGQRCodeHelperTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeHelperTool.h; sourceTree = "<group>"; };
+		87A9BC2322071F6C00A0F55C /* SGQRCodeScanningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeScanningView.h; sourceTree = "<group>"; };
+		87A9BC2422071F6C00A0F55C /* SGQRCodeScanManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeScanManager.h; sourceTree = "<group>"; };
+		87A9BC2522071F6C00A0F55C /* SGQRCodeAlbumManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeAlbumManager.m; sourceTree = "<group>"; };
+		87A9BC2622071F6C00A0F55C /* SGQRCodeGenerateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeGenerateManager.h; sourceTree = "<group>"; };
+		87A9BC302207205000A0F55C /* QMainSortSelectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMainSortSelectModel.m; sourceTree = "<group>"; };
+		87A9BC312207205000A0F55C /* QMainSortSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMainSortSelectView.h; sourceTree = "<group>"; };
+		87A9BC322207205000A0F55C /* QMainSortSelectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMainSortSelectModel.h; sourceTree = "<group>"; };
+		87A9BC332207205000A0F55C /* QMainSortSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMainSortSelectView.m; sourceTree = "<group>"; };
+		87A9BC352207205000A0F55C /* QMainItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMainItemView.h; sourceTree = "<group>"; };
+		87A9BC362207205000A0F55C /* QMainItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMainItemView.m; sourceTree = "<group>"; };
+		87A9BC372207205000A0F55C /* QMainItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QMainItemView.xib; sourceTree = "<group>"; };
+		87A9BC392207205000A0F55C /* QMainVariableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMainVariableView.h; sourceTree = "<group>"; };
+		87A9BC3A2207205000A0F55C /* QMainVariableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMainVariableView.m; sourceTree = "<group>"; };
+		87A9BC3C2207205000A0F55C /* QMainPictureViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMainPictureViewModel.m; sourceTree = "<group>"; };
+		87A9BC3D2207205000A0F55C /* QMainPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMainPictureView.m; sourceTree = "<group>"; };
+		87A9BC3E2207205000A0F55C /* QMainPictureViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMainPictureViewModel.h; sourceTree = "<group>"; };
+		87A9BC3F2207205000A0F55C /* QMainPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMainPictureView.h; sourceTree = "<group>"; };
+		87A9BC412207205000A0F55C /* QMainEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMainEmptyView.h; sourceTree = "<group>"; };
+		87A9BC422207205000A0F55C /* QMainEmptyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QMainEmptyView.xib; sourceTree = "<group>"; };
+		87A9BC432207205000A0F55C /* QMainEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMainEmptyView.m; sourceTree = "<group>"; };
+		87A9BC452207205000A0F55C /* CommonTypeSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTypeSelectView.m; sourceTree = "<group>"; };
+		87A9BC472207205000A0F55C /* CommonTypeSelectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTypeSelectModel.h; sourceTree = "<group>"; };
+		87A9BC482207205000A0F55C /* CommonTypeSelectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTypeSelectModel.m; sourceTree = "<group>"; };
+		87A9BC492207205000A0F55C /* CommonTypeSelectView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonTypeSelectView.xib; sourceTree = "<group>"; };
+		87A9BC4A2207205000A0F55C /* CommonTypeSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTypeSelectView.h; sourceTree = "<group>"; };
+		87A9BC4C2207205000A0F55C /* QMainSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMainSearchView.h; sourceTree = "<group>"; };
+		87A9BC4D2207205000A0F55C /* QMainSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMainSearchView.m; sourceTree = "<group>"; };
+		87A9BC5C220720B300A0F55C /* QMainBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMainBaseModel.m; sourceTree = "<group>"; };
+		87A9BC5D220720B300A0F55C /* QMainLocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMainLocationModel.m; sourceTree = "<group>"; };
+		87A9BC5E220720B300A0F55C /* QMainLocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMainLocationModel.h; sourceTree = "<group>"; };
+		87A9BC5F220720B300A0F55C /* QMainBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMainBaseModel.h; sourceTree = "<group>"; };
 		87D3A4532202AADB00755174 /* iOSBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D3A4562202AADB00755174 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87D3A4572202AADB00755174 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -387,6 +473,7 @@
 		87A9BA442206A03500A0F55C /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				87A9BC1722071F6C00A0F55C /* SGQRCode */,
 				87A9BB3B22070FDC00A0F55C /* LGPhotoBrowser */,
 				87A9BAD422070D9300A0F55C /* CQImage */,
 				87A9BAC72206D33000A0F55C /* KDCycleBannerView */,
@@ -440,6 +527,9 @@
 				87A9BACD22070B5800A0F55C /* CustomNavController.m */,
 				87A9BACE22070B5800A0F55C /* MainTabbarController.h */,
 				87A9BACB22070B5800A0F55C /* MainTabbarController.m */,
+				87A9BC5B220720B300A0F55C /* Models */,
+				87A9BC2E2207205000A0F55C /* Views */,
+				87A9BBC222071C4B00A0F55C /* ViewControllers */,
 			);
 			path = Bases;
 			sourceTree = "<group>";
@@ -1004,6 +1094,227 @@
 			path = DACircularProgress;
 			sourceTree = "<group>";
 		};
+		87A9BBC222071C4B00A0F55C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				87A9BBCF22071C4B00A0F55C /* QMainTabBarViewController */,
+				87A9BBD922071C4B00A0F55C /* QMainWebViewController */,
+				87A9BBDE22071C4B00A0F55C /* QMainBaseNavigationController */,
+				87A9BBE222071C4B00A0F55C /* QMainBaseViewController */,
+				87A9BBFF22071C4B00A0F55C /* QMainScanViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		87A9BBCF22071C4B00A0F55C /* QMainTabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				87A9BBD322071C4B00A0F55C /* Protocol */,
+				87A9BBD622071C4B00A0F55C /* Controllers */,
+			);
+			path = QMainTabBarViewController;
+			sourceTree = "<group>";
+		};
+		87A9BBD322071C4B00A0F55C /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				87A9BBD422071C4B00A0F55C /* QMainTabBarPresenterProtocol.h */,
+				87A9BBD522071C4B00A0F55C /* QMainTabBarProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		87A9BBD622071C4B00A0F55C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				87A9BBD822071C4B00A0F55C /* QMainTabBarViewController.h */,
+				87A9BBD722071C4B00A0F55C /* QMainTabBarViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		87A9BBD922071C4B00A0F55C /* QMainWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				87A9BBDA22071C4B00A0F55C /* QMainWebJSHelper.m */,
+				87A9BBDB22071C4B00A0F55C /* QMainWebViewController.h */,
+				87A9BBDC22071C4B00A0F55C /* QMainWebJSHelper.h */,
+				87A9BBDD22071C4B00A0F55C /* QMainWebViewController.m */,
+			);
+			path = QMainWebViewController;
+			sourceTree = "<group>";
+		};
+		87A9BBDE22071C4B00A0F55C /* QMainBaseNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				87A9BBDF22071C4B00A0F55C /* QMainBaseNavigationController.h */,
+				87A9BBE022071C4B00A0F55C /* QMainBaseNavigationController.m */,
+			);
+			path = QMainBaseNavigationController;
+			sourceTree = "<group>";
+		};
+		87A9BBE222071C4B00A0F55C /* QMainBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				87A9BBE322071C4B00A0F55C /* QMainBaseViewController.h */,
+				87A9BBE422071C4B00A0F55C /* QMainBaseViewController.m */,
+				87A9BBE522071C4B00A0F55C /* Views */,
+			);
+			path = QMainBaseViewController;
+			sourceTree = "<group>";
+		};
+		87A9BBE522071C4B00A0F55C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				87A9BBE622071C4B00A0F55C /* TitleView.m */,
+				87A9BBE722071C4B00A0F55C /* TitleView.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		87A9BBFF22071C4B00A0F55C /* QMainScanViewController */ = {
+			isa = PBXGroup;
+			children = (
+				87A9BC0022071C4B00A0F55C /* QMainScanViewController.h */,
+				87A9BC0122071C4B00A0F55C /* QMainScanViewController.m */,
+			);
+			path = QMainScanViewController;
+			sourceTree = "<group>";
+		};
+		87A9BC1722071F6C00A0F55C /* SGQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				87A9BC1822071F6C00A0F55C /* SGQRCode.h */,
+				87A9BC1922071F6C00A0F55C /* SGQRCode.bundle */,
+				87A9BC1A22071F6C00A0F55C /* Category */,
+				87A9BC1D22071F6C00A0F55C /* SGQRCodeHelperTool.m */,
+				87A9BC1E22071F6C00A0F55C /* SGQRCodeScanningView.m */,
+				87A9BC1F22071F6C00A0F55C /* SGQRCodeScanManager.m */,
+				87A9BC2022071F6C00A0F55C /* SGQRCodeGenerateManager.m */,
+				87A9BC2122071F6C00A0F55C /* SGQRCodeAlbumManager.h */,
+				87A9BC2222071F6C00A0F55C /* SGQRCodeHelperTool.h */,
+				87A9BC2322071F6C00A0F55C /* SGQRCodeScanningView.h */,
+				87A9BC2422071F6C00A0F55C /* SGQRCodeScanManager.h */,
+				87A9BC2522071F6C00A0F55C /* SGQRCodeAlbumManager.m */,
+				87A9BC2622071F6C00A0F55C /* SGQRCodeGenerateManager.h */,
+			);
+			path = SGQRCode;
+			sourceTree = "<group>";
+		};
+		87A9BC1A22071F6C00A0F55C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				87A9BC1B22071F6C00A0F55C /* UIImage+ImageSize.h */,
+				87A9BC1C22071F6C00A0F55C /* UIImage+ImageSize.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		87A9BC2E2207205000A0F55C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				87A9BC2F2207205000A0F55C /* QMainSortSelectView */,
+				87A9BC342207205000A0F55C /* QMainItemView */,
+				87A9BC382207205000A0F55C /* QMainVariableView */,
+				87A9BC3B2207205000A0F55C /* QMainPictureView */,
+				87A9BC402207205000A0F55C /* QMainEmptyView */,
+				87A9BC442207205000A0F55C /* CommonTypeSelectView */,
+				87A9BC4B2207205000A0F55C /* QMainSearchView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		87A9BC2F2207205000A0F55C /* QMainSortSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				87A9BC302207205000A0F55C /* QMainSortSelectModel.m */,
+				87A9BC312207205000A0F55C /* QMainSortSelectView.h */,
+				87A9BC322207205000A0F55C /* QMainSortSelectModel.h */,
+				87A9BC332207205000A0F55C /* QMainSortSelectView.m */,
+			);
+			path = QMainSortSelectView;
+			sourceTree = "<group>";
+		};
+		87A9BC342207205000A0F55C /* QMainItemView */ = {
+			isa = PBXGroup;
+			children = (
+				87A9BC352207205000A0F55C /* QMainItemView.h */,
+				87A9BC362207205000A0F55C /* QMainItemView.m */,
+				87A9BC372207205000A0F55C /* QMainItemView.xib */,
+			);
+			path = QMainItemView;
+			sourceTree = "<group>";
+		};
+		87A9BC382207205000A0F55C /* QMainVariableView */ = {
+			isa = PBXGroup;
+			children = (
+				87A9BC392207205000A0F55C /* QMainVariableView.h */,
+				87A9BC3A2207205000A0F55C /* QMainVariableView.m */,
+			);
+			path = QMainVariableView;
+			sourceTree = "<group>";
+		};
+		87A9BC3B2207205000A0F55C /* QMainPictureView */ = {
+			isa = PBXGroup;
+			children = (
+				87A9BC3C2207205000A0F55C /* QMainPictureViewModel.m */,
+				87A9BC3D2207205000A0F55C /* QMainPictureView.m */,
+				87A9BC3E2207205000A0F55C /* QMainPictureViewModel.h */,
+				87A9BC3F2207205000A0F55C /* QMainPictureView.h */,
+			);
+			path = QMainPictureView;
+			sourceTree = "<group>";
+		};
+		87A9BC402207205000A0F55C /* QMainEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				87A9BC412207205000A0F55C /* QMainEmptyView.h */,
+				87A9BC422207205000A0F55C /* QMainEmptyView.xib */,
+				87A9BC432207205000A0F55C /* QMainEmptyView.m */,
+			);
+			path = QMainEmptyView;
+			sourceTree = "<group>";
+		};
+		87A9BC442207205000A0F55C /* CommonTypeSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				87A9BC452207205000A0F55C /* CommonTypeSelectView.m */,
+				87A9BC462207205000A0F55C /* Models */,
+				87A9BC492207205000A0F55C /* CommonTypeSelectView.xib */,
+				87A9BC4A2207205000A0F55C /* CommonTypeSelectView.h */,
+			);
+			path = CommonTypeSelectView;
+			sourceTree = "<group>";
+		};
+		87A9BC462207205000A0F55C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				87A9BC472207205000A0F55C /* CommonTypeSelectModel.h */,
+				87A9BC482207205000A0F55C /* CommonTypeSelectModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		87A9BC4B2207205000A0F55C /* QMainSearchView */ = {
+			isa = PBXGroup;
+			children = (
+				87A9BC4C2207205000A0F55C /* QMainSearchView.h */,
+				87A9BC4D2207205000A0F55C /* QMainSearchView.m */,
+			);
+			path = QMainSearchView;
+			sourceTree = "<group>";
+		};
+		87A9BC5B220720B300A0F55C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				87A9BC5F220720B300A0F55C /* QMainBaseModel.h */,
+				87A9BC5C220720B300A0F55C /* QMainBaseModel.m */,
+				87A9BC5E220720B300A0F55C /* QMainLocationModel.h */,
+				87A9BC5D220720B300A0F55C /* QMainLocationModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		87D3A44A2202AADB00755174 = {
 			isa = PBXGroup;
 			children = (
@@ -1100,6 +1411,7 @@
 				87A9BB9822070FDC00A0F55C /* checkbox_pic@2x.png in Resources */,
 				87A9BB9C22070FDC00A0F55C /* icon_pic_break@2x.png in Resources */,
 				87D3A4632202AADB00755174 /* LaunchScreen.storyboard in Resources */,
+				87A9BC552207205000A0F55C /* QMainEmptyView.xib in Resources */,
 				87A9BB9B22070FDC00A0F55C /* paizhao.png in Resources */,
 				87A9BAA02206AD9300A0F55C /* q_main_load_loading.png in Resources */,
 				87A9BB9422070FDC00A0F55C /* broswerPic2.jpg in Resources */,
@@ -1112,13 +1424,16 @@
 				87A9BB9622070FDC00A0F55C /* X.png in Resources */,
 				87A9BBA422070FDC00A0F55C /* xiang.png in Resources */,
 				87A9BB9922070FDC00A0F55C /* shanguangdeng2@2x.png in Resources */,
+				87A9BC2722071F6C00A0F55C /* SGQRCode.bundle in Resources */,
 				87A9BA982206AD9300A0F55C /* city_2.json in Resources */,
 				87D3A45E2202AADB00755174 /* Main.storyboard in Resources */,
+				87A9BC512207205000A0F55C /* QMainItemView.xib in Resources */,
 				87A9BB9122070FDC00A0F55C /* lock@2x.png in Resources */,
 				87A9BB9222070FDC00A0F55C /* broswerPic4.jpg in Resources */,
 				87A9BB9D22070FDC00A0F55C /* btn_back_imagePicker@2x.png in Resources */,
 				87A9BBA322070FDC00A0F55C /* checkbox_pic_non2@2x.png in Resources */,
 				87A9BB9522070FDC00A0F55C /* broswerPic0.jpg in Resources */,
+				87A9BC592207205000A0F55C /* CommonTypeSelectView.xib in Resources */,
 				87A9BB9322070FDC00A0F55C /* broswerPic3.jpg in Resources */,
 				87A9BBA122070FDC00A0F55C /* xiang@2x.png in Resources */,
 				87A9BA9F2206AD9300A0F55C /* q_main_load_failure.png in Resources */,
@@ -1202,20 +1517,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				87A9BB3722070D9300A0F55C /* GQImageCacheManager.m in Sources */,
+				87A9BC4F2207205000A0F55C /* QMainSortSelectView.m in Sources */,
 				87A9BABB2206D02A00A0F55C /* NullSafe.m in Sources */,
 				87A9BBAF22070FDC00A0F55C /* ZLCamera.m in Sources */,
 				87A9BAD322070B5800A0F55C /* BaseViewController.m in Sources */,
 				87A9BBA822070FDC00A0F55C /* LGPhotoPickerBrowserPhotoScrollView.m in Sources */,
 				87A9BBA922070FDC00A0F55C /* LGPhotoPickerCustomToolBarView.m in Sources */,
 				87A9BB2022070D9300A0F55C /* GQImageDataDownload.m in Sources */,
+				87A9BC0B22071C4B00A0F55C /* QMainWebViewController.m in Sources */,
 				87A9BAB22206AF1F00A0F55C /* UIViewController+Hidden.m in Sources */,
 				87A9BB3922070D9300A0F55C /* NSData+GQImageDownloader.m in Sources */,
 				87A9BBAA22070FDC00A0F55C /* LGPhotoPickerBrowserPhotoView.m in Sources */,
 				87A9BB3622070D9300A0F55C /* GQImageGobalPaths.m in Sources */,
 				87A9BB2A22070D9300A0F55C /* NSAttributedString+GQImageViewerCategory.m in Sources */,
+				87A9BC2D22071F6C00A0F55C /* SGQRCodeAlbumManager.m in Sources */,
 				87A9BB2422070D9300A0F55C /* GQTextScrollView.m in Sources */,
 				87A9BBAB22070FDC00A0F55C /* LGImagePickerSelectView.m in Sources */,
 				87A9BAB92206D01700A0F55C /* UITextView+PlaceHolder.m in Sources */,
+				87A9BC2B22071F6C00A0F55C /* SGQRCodeScanManager.m in Sources */,
+				87A9BC572207205000A0F55C /* CommonTypeSelectView.m in Sources */,
 				87A9BB1F22070D9300A0F55C /* GQImageViewrConfigure.m in Sources */,
 				87A9BB2E22070D9300A0F55C /* UIImageView+GQImageDownloader.m in Sources */,
 				87A9BAB82206D01700A0F55C /* UIColor+ColorHex.m in Sources */,
@@ -1223,12 +1543,17 @@
 				87A9BA972206AD9300A0F55C /* MDMethod.m in Sources */,
 				87A9BBAD22070FDC00A0F55C /* ZLCameraViewController.m in Sources */,
 				87A9BB3422070D9300A0F55C /* GQImageDownloaderSessionOperation.m in Sources */,
+				87A9BC502207205000A0F55C /* QMainItemView.m in Sources */,
 				87A9BB2522070D9300A0F55C /* GQImageView.m in Sources */,
+				87A9BC582207205000A0F55C /* CommonTypeSelectModel.m in Sources */,
 				87A9BBBB22070FDC00A0F55C /* LGPhotoPickerGroupTableViewCell.m in Sources */,
+				87A9BC4E2207205000A0F55C /* QMainSortSelectModel.m in Sources */,
 				87A9BB2822070D9300A0F55C /* UIView+GQImageViewrCategory.m in Sources */,
 				87A9BB2B22070D9300A0F55C /* GQBaseCollectionView.m in Sources */,
 				87A9BB3122070D9300A0F55C /* GQImageDownloaderBaseURLRequest.m in Sources */,
+				87A9BC2C22071F6C00A0F55C /* SGQRCodeGenerateManager.m in Sources */,
 				87A9BAD222070B5800A0F55C /* CustomNavController.m in Sources */,
+				87A9BC532207205000A0F55C /* QMainPictureViewModel.m in Sources */,
 				87A9BBBC22070FDC00A0F55C /* LGPhotoPickerImageView.m in Sources */,
 				87A9BAB02206AF1F00A0F55C /* UIButton+MDCategory.m in Sources */,
 				87A9BAA32206AD9300A0F55C /* QMainPopUtil.m in Sources */,
@@ -1237,19 +1562,28 @@
 				87D3A45B2202AADB00755174 /* ViewController.m in Sources */,
 				87A9BA9B2206AD9300A0F55C /* QMainAlertView.m in Sources */,
 				87A9BB2222070D9300A0F55C /* GQImageViewer.m in Sources */,
+				87A9BC2922071F6C00A0F55C /* SGQRCodeHelperTool.m in Sources */,
 				87A9BBAE22070FDC00A0F55C /* ZLCameraImageView.m in Sources */,
 				87A9BBB222070FDC00A0F55C /* LGPhotoPickerDatas.m in Sources */,
+				87A9BC2A22071F6C00A0F55C /* SGQRCodeScanningView.m in Sources */,
+				87A9BC0922071C4B00A0F55C /* QMainTabBarViewController.m in Sources */,
 				87A9BA9C2206AD9300A0F55C /* MDDetailImageView.m in Sources */,
 				87A9BA8C2206AD9300A0F55C /* WRNavigationBar.m in Sources */,
 				87A9BB3022070D9300A0F55C /* GQImageDownloaderOperationManager.m in Sources */,
 				87D3A4662202AADB00755174 /* main.m in Sources */,
 				87A9BBA522070FDC00A0F55C /* LGPhotoRect.m in Sources */,
 				87A9BB2D22070D9300A0F55C /* GQImageViewrBaseObject.m in Sources */,
+				87A9BC562207205000A0F55C /* QMainEmptyView.m in Sources */,
 				87A9BA9D2206AD9300A0F55C /* MDMethod+RouteFmdb.m in Sources */,
+				87A9BC5A2207205000A0F55C /* QMainSearchView.m in Sources */,
 				87A9BB3522070D9300A0F55C /* GQImageDownloaderSessionManager.m in Sources */,
 				87A9BB2722070D9300A0F55C /* NSString+GQImageViewrCategory.m in Sources */,
+				87A9BC0D22071C4B00A0F55C /* QMainBaseViewController.m in Sources */,
+				87A9BC61220720B300A0F55C /* QMainLocationModel.m in Sources */,
 				87A9BACA2206D33000A0F55C /* KDCycleBannerView.m in Sources */,
 				87A9BB2F22070D9300A0F55C /* GQImageDataDownloader.m in Sources */,
+				87A9BC0E22071C4B00A0F55C /* TitleView.m in Sources */,
+				87A9BC2822071F6C00A0F55C /* UIImage+ImageSize.m in Sources */,
 				87A9BB2922070D9300A0F55C /* UIImage+GQImageViewrCategory.m in Sources */,
 				87D3A4582202AADB00755174 /* AppDelegate.m in Sources */,
 				87A9BBAC22070FDC00A0F55C /* LGPhotoPickerBrowserPhotoImageView.m in Sources */,
@@ -1260,6 +1594,7 @@
 				87A9BBB122070FDC00A0F55C /* ZLCameraView.m in Sources */,
 				87A9BBBA22070FDC00A0F55C /* LGPhotoPickerCollectionView.m in Sources */,
 				87A9BBB622070FDC00A0F55C /* LGPhotoPickerViewController.m in Sources */,
+				87A9BC0C22071C4B00A0F55C /* QMainBaseNavigationController.m in Sources */,
 				87A9BB3222070D9300A0F55C /* GQImageDownloaderBaseOperation.m in Sources */,
 				87A9BA992206AD9300A0F55C /* MDevKit.m in Sources */,
 				87A9BBC12207172A00A0F55C /* DACircularProgressView.m in Sources */,
@@ -1268,8 +1603,12 @@
 				87A9BB3322070D9300A0F55C /* GQImageDownloaderURLConnectionOperation.m in Sources */,
 				87A9BA932206AD9300A0F55C /* UIViewAdditions.m in Sources */,
 				87A9BB2122070D9300A0F55C /* GQImageViewerModel.m in Sources */,
+				87A9BC542207205000A0F55C /* QMainPictureView.m in Sources */,
 				87A9BAD122070B5800A0F55C /* MainTabbarController.m in Sources */,
+				87A9BC1622071C4B00A0F55C /* QMainScanViewController.m in Sources */,
 				87A9BA9E2206AD9300A0F55C /* QMainLoadView.m in Sources */,
+				87A9BC0A22071C4B00A0F55C /* QMainWebJSHelper.m in Sources */,
+				87A9BC522207205000A0F55C /* QMainVariableView.m in Sources */,
 				87A9BAC62206D0B000A0F55C /* NSString+Deal.m in Sources */,
 				87A9BBB722070FDC00A0F55C /* LGPhotoPickerAssetsViewController.m in Sources */,
 				87A9BB2C22070D9300A0F55C /* GQImageViewrBaseURLRequest.m in Sources */,
@@ -1285,6 +1624,7 @@
 				87A9BBB022070FDC00A0F55C /* LGCameraImageView.m in Sources */,
 				87A9BA952206AD9300A0F55C /* MDSecureKeyboard.m in Sources */,
 				87A9BBB322070FDC00A0F55C /* LGPhotoPickerGroup.m in Sources */,
+				87A9BC60220720B300A0F55C /* QMainBaseModel.m in Sources */,
 				87A9BA8D2206AD9300A0F55C /* WRCustomNavigationBar.m in Sources */,
 				87A9BBB822070FDC00A0F55C /* LGPhotoPickerFooterCollectionReusableView.m in Sources */,
 				87A9BBA622070FDC00A0F55C /* LGPhotoPickerBrowserPhoto.m in Sources */,

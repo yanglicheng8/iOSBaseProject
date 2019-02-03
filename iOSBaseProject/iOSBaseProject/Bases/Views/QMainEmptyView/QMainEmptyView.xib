@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="QMainEmptyView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yW8-dd-RlC" userLabel="Empty Imgae Bg View">
+                    <rect key="frame" x="94" y="194.5" width="187.5" height="100"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pGy-wc-cQu" userLabel="Empty Image View">
+                            <rect key="frame" x="0.0" y="0.0" width="187.5" height="100"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="BSb-eY-wZY"/>
+                        <constraint firstItem="pGy-wc-cQu" firstAttribute="leading" secondItem="yW8-dd-RlC" secondAttribute="leading" id="Gs0-4p-W1B"/>
+                        <constraint firstAttribute="trailing" secondItem="pGy-wc-cQu" secondAttribute="trailing" id="HDC-xD-NMl"/>
+                        <constraint firstAttribute="width" constant="187.5" id="Jdd-zI-bQ4"/>
+                        <constraint firstItem="pGy-wc-cQu" firstAttribute="top" secondItem="yW8-dd-RlC" secondAttribute="top" id="Ttc-i5-4qS"/>
+                        <constraint firstAttribute="bottom" secondItem="pGy-wc-cQu" secondAttribute="bottom" id="xZI-bp-qMz"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="暂无车辆" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XXv-g0-HZ5" userLabel="Empty Label">
+                    <rect key="frame" x="157" y="324.5" width="61.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ork-vq-YDk" userLabel="Go Button">
+                    <rect key="frame" x="102.5" y="382.5" width="170" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="5x7-up-mQg"/>
+                        <constraint firstAttribute="width" constant="170" id="ncm-9c-dK4"/>
+                    </constraints>
+                    <state key="normal" title="添加车辆"/>
+                    <connections>
+                        <action selector="clickGo:" destination="iN0-l3-epB" eventType="touchUpInside" id="Opx-6R-Sgd"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ork-vq-YDk" firstAttribute="top" secondItem="XXv-g0-HZ5" secondAttribute="bottom" constant="40" id="3bV-gX-Tkv"/>
+                <constraint firstItem="yW8-dd-RlC" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="C4H-1Z-5v6"/>
+                <constraint firstItem="XXv-g0-HZ5" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="LYb-qT-24p"/>
+                <constraint firstItem="yW8-dd-RlC" firstAttribute="bottom" secondItem="XXv-g0-HZ5" secondAttribute="top" constant="-30" id="OZr-zg-wLp"/>
+                <constraint firstItem="XXv-g0-HZ5" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="RPY-Vq-zRp"/>
+                <constraint firstItem="ork-vq-YDk" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="oS0-Iw-gpc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="emptyImageHeight" destination="BSb-eY-wZY" id="Baf-Vt-bKM"/>
+                <outlet property="emptyImageView" destination="pGy-wc-cQu" id="Ccm-J2-YnD"/>
+                <outlet property="emptyImageWidth" destination="Jdd-zI-bQ4" id="86h-mT-g5j"/>
+                <outlet property="emptyLabel" destination="XXv-g0-HZ5" id="GFd-5u-cBO"/>
+                <outlet property="goButton" destination="ork-vq-YDk" id="5Uy-kl-iwD"/>
+            </connections>
+        </view>
+    </objects>
+</document>

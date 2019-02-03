@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "QMainBaseViewController.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+//当前VC
+@property (nonatomic, strong) QMainBaseViewController *currentVc;
 
+- (void)disposePushWithPushInfo:(NSDictionary *)pushInfo;
 
 @end
 

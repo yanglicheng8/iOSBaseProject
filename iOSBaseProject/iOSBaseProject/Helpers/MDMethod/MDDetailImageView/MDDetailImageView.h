@@ -2,8 +2,8 @@
 //  MDDetailImageView.h
 //  QMainProject
 //
-//  Created by 李孟东 on 2018/10/8.
-//  Copyright © 2018年 dareway. All rights reserved.
+//  Created by Leo on 2018/10/8.
+//  Copyright © 2018年 Leo. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
