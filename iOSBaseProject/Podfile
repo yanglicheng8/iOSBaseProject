@@ -1,19 +1,19 @@
 platform :ios, '8.0'
 target ‘iOSBaseProject’ do
-    pod 'AFNetworking', '~> 3.2.0'
-    pod 'SVProgressHUD'
-    pod 'MJRefresh'
-    pod 'Masonry'
-    pod 'pop'
-    pod 'LBXScan'
-    pod 'DZNEmptyDataSet'
-    pod 'CocoaSecurity'
-    pod 'MJExtension'
-    pod 'SDWebImage', '~> 3.7.5'
+    pod 'AFNetworking', '~> 3.2.0' #网络请求框架
+    pod 'SVProgressHUD' #加载指示框
+    pod 'MJRefresh' #下拉刷新
+    pod 'Masonry' #代码布局框架
+    pod 'pop' #动画框架
+    pod 'LBXScan'  #扫描框架
+    pod 'DZNEmptyDataSet' #空数据占位
+    pod 'CocoaSecurity' #安全相关框架
+    pod 'MJExtension' #网络数据对象持久化
+    pod 'SDWebImage', '~> 3.7.5' #网络图片加载框架
     pod 'JVFloatLabeledTextField'
-    pod 'IQKeyboardManager'
+    pod 'IQKeyboardManager' #输入框上移框架
 
-    pod 'UMCCommon'
+    pod 'UMCCommon' #友盟相关框架
     pod 'UMCSecurityPlugins'
     pod 'UMCAnalytics'
     pod 'UMCPush'
@@ -22,8 +22,8 @@ target ‘iOSBaseProject’ do
     pod 'UMCShare/Social/WeChat'
     pod 'UMCShare/Social/QQ'
 
-    pod 'JPush'
-    pod 'HMSegmentedControl'
-    #pod 'IDMPhotoBrowser'
+    pod 'JPush' #推送框架
+    pod 'HMSegmentedControl' #segment框架
+    #pod 'IDMPhotoBrowser' #图片浏览器
 
 end
