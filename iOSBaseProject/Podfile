@@ -4,6 +4,7 @@ target ‘iOSBaseProject’ do
     pod 'SVProgressHUD' #加载指示框
     pod 'MJRefresh' #下拉刷新
     pod 'Masonry' #代码布局框架
+    pod 'CYLTabBarController', '~> 1.17.22' #tabbar,包含动画\不规则\角标
     pod 'pop' #动画框架
     pod 'LBXScan'  #扫描框架
     pod 'DZNEmptyDataSet' #空数据占位
@@ -13,17 +14,17 @@ target ‘iOSBaseProject’ do
     pod 'JVFloatLabeledTextField'
     pod 'IQKeyboardManager' #输入框上移框架
 
-    pod 'UMCCommon' #友盟相关框架
-    pod 'UMCSecurityPlugins'
-    pod 'UMCAnalytics'
-    pod 'UMCPush'
-    pod 'UMCCommonLog'
-    pod 'UMCShare/UI'
-    pod 'UMCShare/Social/WeChat'
-    pod 'UMCShare/Social/QQ'
+#    pod 'UMCCommon' #友盟相关框架
+#    pod 'UMCSecurityPlugins'
+#    pod 'UMCAnalytics'
+#    pod 'UMCPush'
+#    pod 'UMCCommonLog'
+#    pod 'UMCShare/UI'
+#    pod 'UMCShare/Social/WeChat'
+#    pod 'UMCShare/Social/QQ'
 
     pod 'JPush' #推送框架
-    pod 'HMSegmentedControl' #segment框架
+    pod 'HMSegmentedControl' #segment框架`
     #pod 'IDMPhotoBrowser' #图片浏览器
 
 end

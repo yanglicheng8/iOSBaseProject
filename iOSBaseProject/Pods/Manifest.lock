@@ -15,6 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - CocoaSecurity (1.2.4)
+  - CYLTabBarController (1.17.22)
   - DZNEmptyDataSet (1.8.1)
   - HMSegmentedControl (1.5.5)
   - IQKeyboardManager (6.2.0)
@@ -36,37 +37,12 @@ PODS:
     - SDWebImage/Core (= 3.7.6)
   - SDWebImage/Core (3.7.6)
   - SVProgressHUD (2.2.5)
-  - UMCAnalytics (5.5.2):
-    - UMCCommon
-  - UMCCommon (1.5.3)
-  - UMCCommonLog (1.0.0)
-  - UMCPush (3.2.3):
-    - UMCCommon
-  - UMCSecurityPlugins (1.0.6)
-  - UMCShare/Core (6.9.5):
-    - UMCCommon
-  - UMCShare/Social/QQ (6.9.5):
-    - UMCCommon
-    - UMCShare/Core
-    - UMCShare/Social/ReducedQQ
-  - UMCShare/Social/ReducedQQ (6.9.5):
-    - UMCCommon
-    - UMCShare/Core
-  - UMCShare/Social/ReducedWeChat (6.9.5):
-    - UMCCommon
-    - UMCShare/Core
-  - UMCShare/Social/WeChat (6.9.5):
-    - UMCCommon
-    - UMCShare/Core
-    - UMCShare/Social/ReducedWeChat
-  - UMCShare/UI (6.9.5):
-    - UMCCommon
-    - UMCShare/Core
   - ZBarSDK (1.3.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.2.0)
   - CocoaSecurity
+  - CYLTabBarController (~> 1.17.22)
   - DZNEmptyDataSet
   - HMSegmentedControl
   - IQKeyboardManager
@@ -79,19 +55,12 @@ DEPENDENCIES:
   - pop
   - SDWebImage (~> 3.7.5)
   - SVProgressHUD
-  - UMCAnalytics
-  - UMCCommon
-  - UMCCommonLog
-  - UMCPush
-  - UMCSecurityPlugins
-  - UMCShare/Social/QQ
-  - UMCShare/Social/WeChat
-  - UMCShare/UI
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - CocoaSecurity
+    - CYLTabBarController
     - DZNEmptyDataSet
     - HMSegmentedControl
     - IQKeyboardManager
@@ -105,17 +74,12 @@ SPEC REPOS:
     - pop
     - SDWebImage
     - SVProgressHUD
-    - UMCAnalytics
-    - UMCCommon
-    - UMCCommonLog
-    - UMCPush
-    - UMCSecurityPlugins
-    - UMCShare
     - ZBarSDK
 
 SPEC CHECKSUMS:
   AFNetworking: 2f170321de0f72e1f84199b89ef8c1f578b828ae
   CocoaSecurity: d288a6f87e0f363823d2cb83e753814a6944f71a
+  CYLTabBarController: 70f082e34686c9b1c543acd494a4419122618eb8
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   HMSegmentedControl: cd670ead778f6ef385866ffa6acf93cbed71131d
   IQKeyboardManager: a7e5daaba5e03b6eb5c8eef7e4f3dfaf33fd3e59
@@ -129,14 +93,8 @@ SPEC CHECKSUMS:
   pop: bada238ad905705246da19793dca42eb4bbc8bf6
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   SVProgressHUD: 1c1af9c7eac1497d655a5daa965f55e8b135a87c
-  UMCAnalytics: 4d722bdc2b95393dd8349206261fdeb46f09478e
-  UMCCommon: e3a17d6deb7d55c504f5cafc0ed284998a3512f2
-  UMCCommonLog: fe011ef7bdc9e25c1b7d4f5c387e8a7e0e8cbf99
-  UMCPush: 2b828a70f57c7c878a28c67c68d9e28eda67f568
-  UMCSecurityPlugins: 16f9d4c90462ec669d04c48792529c8da9d986cf
-  UMCShare: 46f0c024708c36ed7874da42e6568b5238aa412d
   ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
 
-PODFILE CHECKSUM: 243cf297307539ebd54ddcbb129858f43554750c
+PODFILE CHECKSUM: 25d008fc74892dc1baba4e1cf2b7cdef22709309
 
 COCOAPODS: 1.5.3
